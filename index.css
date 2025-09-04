@@ -73,6 +73,7 @@ h1 {
   text-align: center;
   padding: 1em 3em;
   min-height: 17em;
+  margin-top: 2em;
 }
 
 .about {
@@ -320,3 +321,4 @@ textarea {
     opacity: 1;
   }
 }
+
