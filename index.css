@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+nav {
+  display: none;
+}
+/*Landing page Styles*/
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4em 1em;
+}
+.socials {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.social-img {
+  width: 70px;
+}
+
+.right-grid {
+  display: none;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.blue {
+  color: rgb(23, 74, 243);
+}
+.button-section {
+  margin-top: 2em;
+}
+.button {
+  width: 10em;
+  padding: 1em;
+  border-radius: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.button:hover {
+  transform: translateY(-10px);
+}
+
+.download-cv-button {
+  background-color: black;
+}
+
+.hire-me-button {
+  background-color: #00c6ff;
+  margin-left: 1em;
+}
+
+/*About Page Styles*/
+.about,
+.skills,
+.services,
+.services-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1em 3em;
+  min-height: 17em;
+}
+
+.about {
+  background-color: rgb(23, 74, 243);
+  color: white;
+}
+
+.about h1,
+.skills h1,
+.services h1,
+.contact-section h1 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/*Skills page styles*/
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  height: 50%;
+}
+
+.skill {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  width: 8em;
+  height: 8em;
+  padding: 1em;
+  border-radius: 10em;
+  border: solid 0.5em transparent;
+  background: linear-gradient(white, white) padding-box,
+    /* Inner background */ linear-gradient(90deg, #174af3, #00c6ff) border-box; /* Gradient border */
+}
+
+.skill:hover {
+  animation: rotate-border 4s linear;
+}
+
+/*Services Page Styles*/
+.services {
+  background-color: rgb(23, 74, 243);
+  gap: 2em;
+}
+
+.services-grid {
+  gap: 2em;
+}
+
+.services h1 {
+  color: white;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  color: rgb(23, 74, 243);
+  border-radius: 16px;
+  min-width: 20em;
+  height: 15em;
+  padding: 1em;
+}
+
+.service h2 {
+  margin-bottom: 1em;
+}
+
+.service p {
+  color: black;
+}
+
+/*Form styles*/
+
+.contact-section {
+  padding: 1.5em;
+}
+
+.contact-right {
+  display: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  margin-bottom: 2em;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border: solid 0.2px black;
+  resize: none;
+  outline: none;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.submit-button {
+  background-color: #00c6ff;
+}
+
+.animate {
+  animation: pop-into-view 2s linear, fade-in 2s ease-in;
+}
+/*Media Queries*/
+@media (min-width: 600px) {
+  .service {
+    width: 27em;
+  }
+}
+
+@media (min-width: 850px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    padding: 1em;
+    background-color: rgb(23, 74, 243);
+    border-radius: 30px;
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+
+  nav a {
+    margin-left: 2em;
+    color: white;
+  }
+  .services-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  .landing-page {
+    margin-bottom: 2em;
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3em;
+  }
+
+  .left-grid {
+    padding: 4em 2em;
+  }
+
+  .right-grid {
+    display: inline-block;
+  }
+
+  .right-grid img {
+    border: solid 2px transparent;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(90deg, #174af3, #00c6ff) border-box;
+  }
+  .about p {
+    width: 50%;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-left {
+    width: 45%;
+  }
+
+  .contact-right {
+    margin-right: 5em;
+    display: inline-block;
+  }
+}
+/*Animations*/
+@keyframes rotate-border {
+  0% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(90deg, #174af3, #00c6ff) border-box; /* Gradient border */
+  }
+  10% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(110deg, #174af3, #00c6ff)
+        border-box; /* Gradient border */
+  }
+  20% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(150deg, #174af3, #00c6ff)
+        border-box; /* Gradient border */
+  }
+  30% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(90deg, #00c6ff, #174af3) border-box; /* Gradient border */
+  }
+  40% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(110deg, #00c6ff, #174af3)
+        border-box; /* Gradient border */
+  }
+  50% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(120deg, #00c6ff, #174af3)
+        border-box; /* Gradient border */
+  }
+  65% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(150deg, #00c6ff, #174af3)
+        border-box; /* Gradient border */
+  }
+  80% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(180deg, #00c6ff, #174af3)
+        border-box; /* Gradient border */
+  }
+  100% {
+    background: linear-gradient(white, white) padding-box,
+      /* Inner background */ linear-gradient(90deg, #174af3, #00c6ff) border-box; /* Gradient border */
+  }
+}
+
+@keyframes pop-into-view {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
