@@ -12,18 +12,17 @@ const animatedElements = document.querySelectorAll(
 );
 
 const observer = new IntersectionObserver(
-  (entries) => {
+  (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("animate");
-      } else {
-        entry.target.classList.remove("animate");
+        observer.unobserve(entry.target); // stop observing after first trigger
       }
     });
   },
-  {
-    threshold: 0.6, // Adjust as needed
-  }
+  { threshold: 0.5 }
 );
 
-animatedElements.forEach((el) => observer.observe(el));
+document.querySelectorAll(".animated-div").forEach((div) => {
+  observer.observe(div);
+});
