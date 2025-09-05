@@ -128,7 +128,10 @@ h1 {
 .services {
   background-color: rgba(17, 38, 106, 0.442);
   gap: 2em;
-  background-image: url(./good-programmer.webp);
+  background-image: url("./good-programmer.webp");
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .services-grid {
