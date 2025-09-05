@@ -126,7 +126,7 @@ h1 {
 
 /*Services Page Styles*/
 .services {
-  background-color: rgb(17, 38, 106);
+  background-color: rgba(17, 38, 106, 0.442);
   gap: 2em;
 }
 
