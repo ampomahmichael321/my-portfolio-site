@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  display: none;
 }
 
 nav {
@@ -74,7 +73,7 @@ h1 {
   text-align: center;
   padding: 1em 3em;
   min-height: 17em;
-  background-color: green;
+  margin-top: 3em;
 }
 
 .about {
