@@ -8,7 +8,7 @@ hireMeBtn.addEventListener("click", () => {
 
 // Select all elements you want to animate on scroll
 const animatedElements = document.querySelectorAll(
-  ".landing-page, .about, .skills, .services, .contact-section,nav, label, .button,"
+  ".landing-page, .about, .skills, .services, .contact-section,nav, label"
 );
 
 const observer = new IntersectionObserver(
