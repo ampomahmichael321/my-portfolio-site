@@ -22,7 +22,7 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.4, // Adjust as needed
+    threshold: 0.6, // Adjust as needed
   }
 );
 
