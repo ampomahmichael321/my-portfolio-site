@@ -25,6 +25,9 @@ nav {
   flex-direction: column;
   justify-content: center;
   padding: 4em 1em;
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity 1s, transform 1s;
 }
 .socials {
   margin-top: 1em;
@@ -87,6 +90,9 @@ h1 {
   padding: 1em 3em;
   min-height: 17em;
   margin-bottom: 2em;
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity 1s, transform 1s;
 }
 
 .about {
