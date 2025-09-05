@@ -85,7 +85,8 @@ h1 {
   background-color: rgba(23, 74, 243, 0.6);
   color: white;
   background-image: url("./c6.png");
-  background-blend-mode: color;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .about h1,
