@@ -181,6 +181,9 @@ h1 {
 /*Form styles*/
 
 .contact-section {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity 1s, transform 1s;
   padding: 3em;
 }
 
