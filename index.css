@@ -42,7 +42,7 @@ h1 {
 .button {
   width: 10em;
   padding: 1em;
-  border-radius: 16px;
+  border-radius: 3px;
   color: white;
   border: none;
   cursor: pointer;
@@ -58,7 +58,7 @@ h1 {
 }
 
 .hire-me-button {
-  background-color: #00c6ff;
+  background-color: rgb(23, 74, 243);
   margin-left: 1em;
 }
 
@@ -177,7 +177,7 @@ textarea {
 }
 
 .submit-button {
-  background-color: #00c6ff;
+  background-color: rgb(23, 74, 243);
 }
 
 .animate {
