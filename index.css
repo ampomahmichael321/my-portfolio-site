@@ -126,7 +126,7 @@ h1 {
 
 /*Services Page Styles*/
 .services {
-  background-color: rgba(17, 38, 106, 0.442);
+  background-color: rgba(17, 38, 106, 0.8);
   gap: 2em;
   background-image: url("./good-programmer.webp");
   background-position: center;
