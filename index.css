@@ -44,6 +44,7 @@ h1 {
   margin-top: 2em;
 }
 .button {
+  max-height: 10px;
   width: 10em;
   padding: 1em;
   border-radius: 3px;
