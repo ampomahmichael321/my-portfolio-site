@@ -82,7 +82,7 @@ h1 {
 }
 
 .about {
-  background-color: rgba(0, 0, 0, 0.76);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   background-image: url("./c6.png");
   background-blend-mode: multiply;
@@ -126,7 +126,7 @@ h1 {
 
 /*Services Page Styles*/
 .services {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   gap: 2em;
   background-image: url("./good-programmer.webp");
   background-position: center;
