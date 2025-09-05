@@ -16,7 +16,6 @@ const observer = new IntersectionObserver(
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("animate");
-        observer.unobserve(entry.target); // stop observing after first trigger
       }
     });
   },
