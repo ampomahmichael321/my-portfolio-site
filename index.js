@@ -23,6 +23,6 @@ const observer = new IntersectionObserver(
   { threshold: 0.5 }
 );
 
-animatedElements(".animated-div").forEach((div) => {
+animatedElements.forEach((div) => {
   observer.observe(div);
 });
