@@ -82,7 +82,7 @@ h1 {
 }
 
 .about {
-  background-color: rgba(0, 0, 0, 0.886);
+  background-color: rgba(0, 0, 0, 0.76);
   color: white;
   background-image: url("./c6.png");
   background-blend-mode: multiply;
@@ -126,7 +126,7 @@ h1 {
 
 /*Services Page Styles*/
 .services {
-  background-color: rgba(0, 0, 0, 0.86);
+  background-color: rgba(0, 0, 0, 0.7);
   gap: 2em;
   background-image: url("./good-programmer.webp");
   background-position: center;
@@ -145,7 +145,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.875);
   color: rgb(23, 74, 243);
   border-radius: 16px;
   min-width: 20em;
