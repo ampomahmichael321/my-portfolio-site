@@ -82,8 +82,10 @@ h1 {
 }
 
 .about {
-  background-color: rgb(23, 74, 243);
+  background-color: rgba(23, 74, 243, 0.6);
   color: white;
+  background-image: url("./c6.png");
+  background-blend-mode: color;
 }
 
 .about h1,
