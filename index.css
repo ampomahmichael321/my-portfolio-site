@@ -193,7 +193,7 @@ textarea {
 }
 
 .animate {
-  animation: pop-into-view 2s linear, fade-in 2s ease-in;
+  animation: pop-into-view 1s linear;
 }
 /*Media Queries*/
 @media (min-width: 600px) {
@@ -318,7 +318,7 @@ textarea {
 
 @keyframes pop-into-view {
   from {
-    transform: translateY(30px);
+    transform: translateY(35px);
   }
   to {
     transform: translateY(0);
