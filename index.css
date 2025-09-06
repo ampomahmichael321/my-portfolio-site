@@ -203,7 +203,7 @@ textarea {
   background-color: rgb(23, 74, 243);
 }
 
-.animated {
+.animate {
   animation: pop-into-view 1s linear forwards;
 }
 
