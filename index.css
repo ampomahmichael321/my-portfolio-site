@@ -25,9 +25,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   padding: 4em 1em;
-  opacity: 0;
-  transform: translateY(35px);
-  transition: opacity 1s, transform 1s;
 }
 .socials {
   margin-top: 1em;
