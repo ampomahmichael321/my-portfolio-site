@@ -93,6 +93,11 @@ h1 {
   /*Set the opacity to 0 before so that it is not seen until the animation begins
   also set transform translateY(35px) so that when the page loads, the element is already pushed down 35px before the animation
   then transition to make it smooth*/
+}
+
+.about,
+.skills,
+.services {
   opacity: 0;
   transform: translateY(35px);
   transition: opacity 1s, transform 1s;
