@@ -205,6 +205,11 @@ textarea {
 .submit-button {
   background-color: rgb(23, 74, 243);
 }
+
+.animated {
+  animation: pop-into-view 1s linear forwards;
+}
+
 /*Media Queries*/
 @media (min-width: 600px) {
   .service {
