@@ -239,6 +239,7 @@ button:hover,
   left: 1.5em;
   font-size: 0.8em;
   color: #e34d73ff;
+  cursor:pointer;
 }
 
 .browse-projects-btn {
@@ -476,3 +477,4 @@ legend {
     margin-left: 2.5%;
   }
 }
+
