@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #171a1fff;
+}
+p {
+  font-weight: 100;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.hidden-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 3em;
+  background-color: rgba(0, 0, 0, 0.83);
+  color: white;
+  display: none;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2.5em;
+}
+.hidden-menu a {
+  color: rgba(255, 255, 255, 0.618);
+}
+
+.close-btn {
+  align-self: flex-end;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+}
+
+main {
+  margin-top: 5em;
+  width: 97%;
+  margin-left: 1.5%;
+}
+
+/*Animation*/
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slide-in-bottom {
+  from {
+    transform: translateY(8em);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
