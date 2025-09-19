@@ -238,7 +238,7 @@ button:hover,
   bottom: 1.5em;
   left: 1.5em;
   font-size: 0.8em;
-  color: #e34d73ff;
+  color:  rgb(70, 143, 245);
   cursor:pointer;
   z-index: 1;
 }
@@ -513,9 +513,10 @@ legend {
   .about{
     margin-top:-3em;
   }
-  .services{
+  .services, .skills{
     margin-top: 1.5em;}
 }
+
 
 
 
