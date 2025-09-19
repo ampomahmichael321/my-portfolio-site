@@ -2,9 +2,6 @@
 .nav-links {
   display: none;
 }
-a{
-  font-weight:300;}
-
 .landing-page {
   display: flex;
   justify-content: center;
