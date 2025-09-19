@@ -158,6 +158,10 @@ button:hover,
   /* Rectangle 1 */
 }
 
+.service-top p{
+    color:white;
+}
+
 .skills,
 .skills-content {
   margin-top: 2em;
@@ -182,14 +186,12 @@ button:hover,
 
 .first-service,.third-service,.fifth-service {
  background: rgb(70, 143, 245);
-   color:white;
 }
 
 
 .second-service,
 .fourth-service,.sixth-service {
    background: #171A1FFF;
-   color:white;
 }
 
 .projects {
@@ -522,6 +524,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
