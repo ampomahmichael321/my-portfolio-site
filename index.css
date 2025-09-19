@@ -108,7 +108,7 @@ button:hover,
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
-  scroll-margin-top: 15em;
+  scroll-margin-top: 10em;
 }
 
 .about-left {
@@ -525,6 +525,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
