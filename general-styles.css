@@ -20,7 +20,7 @@ nav {
   right: 0;
   left: 0;
   background-color: white;
-  padding: 0em 2em;
+  padding: 0em 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,6 +98,7 @@ main {
     opacity: 1;
   }
 }
+
 
 
 
