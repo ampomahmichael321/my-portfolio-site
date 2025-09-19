@@ -2,16 +2,17 @@ const menuBtn = document.querySelector(".menu");
 const hiddenMenu = document.querySelector(".hidden-menu");
 const navLinks = document.querySelectorAll(".link");
 menuBtn.addEventListener("click", () => {
-  hiddenMenu.style.display = "flex";
+  hiddenMenu.style.transform = "translateX(0)";
 });
 const closeBtn = document.querySelector(".close-btn");
 closeBtn.addEventListener("click", () => {
-  hiddenMenu.style.display = "none";
+  hiddenMenu.style.transform = "translateX(100%)";
 });
 
 navLinks.forEach(link => {
   link.addEventListener("click", () => {
-    hiddenMenu.style.display = "none";
+    hiddenMenu.style.transform = "translateX(100%)";
   });
 });
+
 
