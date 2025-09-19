@@ -132,10 +132,14 @@ button:hover,
   align-items: center;
   justify-content: center;
 }
-.service, .services h1,
+.service,
 .project {
   font-size: 1.1em;
   animation: slide-in-bottom 1s ease-out both;
+  animation-timeline: view();
+}
+.services h1{
+   animation: slide-in-bottom 1s ease-out both;
   animation-timeline: view();
 }
 
@@ -519,6 +523,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
