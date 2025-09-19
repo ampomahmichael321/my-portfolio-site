@@ -108,8 +108,9 @@ button:hover,
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
-  scroll-margin-top: 10em;
 }
+.about,.services,.projects,.footer{
+  scroll-margin-top: 10em;}
 
 .about-left {
   display: flex;
@@ -525,6 +526,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
