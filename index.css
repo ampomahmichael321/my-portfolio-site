@@ -427,7 +427,7 @@ legend {
   .hire-me-btn:hover,
   .submit-btn:hover {
     background-color: white;
-    border: solid rgb(241, 87, 126) 1px;
+    border: solid  rgb(70, 143, 245) 1px;
     color: #e34d73ff;
   }
   .nav-links a:hover {
@@ -515,6 +515,7 @@ legend {
   .services{
     margin-top: 1.5em;}
 }
+
 
 
 
