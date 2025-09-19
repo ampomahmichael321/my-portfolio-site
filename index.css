@@ -335,7 +335,7 @@ legend {
 }
 
 /*Media Queries*/
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .landing-page {
     padding: 2em 5em;
     flex-direction: row;
@@ -478,6 +478,7 @@ legend {
     margin-left: 2.5%;
   }
 }
+
 
 
 
