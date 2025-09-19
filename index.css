@@ -132,7 +132,7 @@ button:hover,
   align-items: center;
   justify-content: center;
 }
-.service,
+.service, .services h1,
 .project {
   font-size: 1.1em;
   animation: slide-in-bottom 1s ease-out both;
@@ -519,6 +519,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
