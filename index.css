@@ -185,13 +185,14 @@ button:hover,
 }
 
 .first-service,.third-service,.fifth-service {
- background: rgb(70, 143, 245);
+   background: #171A1FFF;
 }
 
 
 .second-service,
 .fourth-service,.sixth-service {
-   background: #171A1FFF;
+  background: rgb(70, 143, 245);
+ 
 }
 
 .projects {
@@ -524,6 +525,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
