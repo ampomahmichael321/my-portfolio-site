@@ -207,7 +207,7 @@ button:hover,
   gap: 1em;
   margin-bottom: 2em;
   position: relative;
-  z-index: -1;
+
   /*fix the height*/
 }
 
@@ -478,5 +478,6 @@ legend {
     margin-left: 2.5%;
   }
 }
+
 
 
