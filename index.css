@@ -513,9 +513,13 @@ legend {
   .about{
     margin-top:-3em;
   }
-  .services, .skills{
+  .services{
     margin-top: 1.5em;}
+  .skills{
+    z-index:-1;
+  }
 }
+
 
 
 
