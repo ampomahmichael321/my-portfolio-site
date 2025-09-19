@@ -31,7 +31,6 @@
 }
 
 .hidden-menu {
-  display: none;
   flex-direction: column;
   position: fixed;
   top: 0;
@@ -478,6 +477,7 @@ legend {
     margin-left: 2.5%;
   }
 }
+
 
 
 
