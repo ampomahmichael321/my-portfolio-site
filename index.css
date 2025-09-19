@@ -423,15 +423,16 @@ legend {
     color: white;
     transition: all 0.3s ease-in-out;
   }
-  .nav-hire-me-btn:hover,
+  .nav-links a:hover {
+    color: #e34d73ff;
+  }
+
+    .nav-hire-me-btn:hover,
   .hire-me-btn:hover,
   .submit-btn:hover {
     background-color: white;
     border: solid  rgb(70, 143, 245) 1px;
-    color: #e34d73ff;
-  }
-  .nav-links a:hover {
-    color: #e34d73ff;
+    color:  rgb(70, 143, 245);
   }
 
   .profile-pic {
@@ -515,6 +516,7 @@ legend {
   .services{
     margin-top: 1.5em;}
 }
+
 
 
 
