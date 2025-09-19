@@ -414,7 +414,7 @@ legend {
   .nav-links a {
     font-weight: 100;
   }
-  .nav-hire-me-btn {
+  #nav-hire-me-btn {
     padding: 0.5em;
     width: 6em;
     font-size: 0.9em;
@@ -427,7 +427,7 @@ legend {
     color: #e34d73ff;
   }
 
-    .nav-hire-me-btn:hover,
+    #nav-hire-me-btn:hover,
   .hire-me-btn:hover,
   .submit-btn:hover {
     background-color: white;
@@ -516,6 +516,7 @@ legend {
   .services{
     margin-top: 1.5em;}
 }
+
 
 
 
