@@ -2,6 +2,8 @@
 .nav-links {
   display: none;
 }
+a{
+  font-weight:300;}
 
 .landing-page {
   display: flex;
@@ -241,7 +243,7 @@ button:hover,
 
 .live-project-link {
   position: absolute;
-  bottom: 1.5em;
+  bottom: 1em;
   left: 1.5em;
   font-size: 0.8em;
   color:  rgb(70, 143, 245);
@@ -525,6 +527,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
