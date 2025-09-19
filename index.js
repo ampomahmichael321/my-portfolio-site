@@ -9,6 +9,9 @@ closeBtn.addEventListener("click", () => {
   hiddenMenu.style.display = "none";
 });
 
-navLinks.addEventListener("click", () => {
-  hiddenMenu.style.display = "none";
+navLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    hiddenMenu.style.display = "none";
+  });
 });
+
