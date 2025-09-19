@@ -154,7 +154,7 @@ button:hover,
   align-items: center;
   justify-content: center;
   height: 9em;
-
+  color:white;
   border-radius: 3px;
   /* Rectangle 1 */
 }
@@ -181,16 +181,14 @@ button:hover,
   padding-bottom: 0.5em;
 }
 
-.first-service {
-  background: #abd868ff;
+.first-service,.third-service,.fifth-service {
+ background: rgb(70, 143, 245);
 }
 
+
 .second-service,
-.fourth-service {
-  background: #f7c9d4ff;
-}
-.third-service {
-  background: #feda7fff;
+.fourth-service,.sixth-service {
+   background: #171A1FFF;
 }
 
 .projects {
@@ -523,6 +521,7 @@ legend {
     margin-top: 5em;
   }
 }
+
 
 
 
