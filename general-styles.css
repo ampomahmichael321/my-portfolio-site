@@ -26,6 +26,9 @@ nav {
   z-index: 1;
 }
 
+.nav-logo{
+  width: 50px;}
+
 .hidden-menu {
   position: fixed;
   top: 0;
@@ -91,3 +94,4 @@ main {
     opacity: 1;
   }
 }
+
