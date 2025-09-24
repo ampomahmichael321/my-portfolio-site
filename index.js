@@ -1,6 +1,10 @@
 const menuBtn = document.querySelector(".menu");
 const hiddenMenu = document.querySelector(".hidden-menu");
 const navLinks = document.querySelectorAll(".link");
+
+AOS.init();//Initialize animate on scroll library
+
+
 menuBtn.addEventListener("click", () => {
   hiddenMenu.style.transform = "translateX(0)";
 });
@@ -14,5 +18,6 @@ navLinks.forEach(link => {
     hiddenMenu.style.transform = "translateX(100%)";
   });
 });
+
 
 
