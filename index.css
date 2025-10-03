@@ -32,6 +32,12 @@ body {
   margin-bottom: 1em;
 }
 
+.landing-page h1,
+.landing-page h2,
+.professional-summary {
+  color: white;
+}
+
 .landing-page-right {
   display: none;
 }
