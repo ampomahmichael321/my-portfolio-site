@@ -17,7 +17,7 @@ body {
 }
 
 .black-background {
-  background-color: rgba(30, 33, 40, 0.8);
+  background-color: rgba(30, 33, 40, 0.95);
   width: 100vw;
   padding: 4em 0.5em;
   margin-bottom: 4em;
