@@ -12,8 +12,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 1em;
-  background-color: #1e2128ff;
-  color: white;
+  width: 100vw;
   z-index: -1;
 }
 .landing-page h1 {
