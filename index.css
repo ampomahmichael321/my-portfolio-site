@@ -502,9 +502,6 @@ legend {
   }
 }
 @media (max-width: 450px) {
-  .about {
-    margin-top: -3em;
-  }
   .services {
     margin-top: 1.5em;
   }
