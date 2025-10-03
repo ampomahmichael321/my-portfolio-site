@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 * {
   margin: 0;
@@ -6,7 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
   color: #171a1fff;
- 
 }
 p {
   font-weight: 300;
@@ -30,10 +29,10 @@ nav {
   z-index: 1;
 }
 
-.nav-logo{
+.nav-logo {
   width: 80px;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 .hidden-menu {
@@ -44,7 +43,7 @@ nav {
   left: 3em;
   background-color: rgba(0, 0, 0, 0.83);
   color: white;
-  transform: translateX(100%);  /* off screen to the right */
+  transform: translateX(100%); /* off screen to the right */
   transition: transform 0.3s ease;
   flex-direction: column;
   gap: 2em;
@@ -68,8 +67,8 @@ main {
   margin-left: 1.5%;
 }
 
-@media(min-width:800px){
-  nav{
+@media (min-width: 800px) {
+  nav {
     padding: 0em 2em;
   }
 }
@@ -108,21 +107,3 @@ main {
     opacity: 1;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
