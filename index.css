@@ -16,9 +16,9 @@ body {
   z-index: -1;
 }
 
-.landing-page,
-.about {
+.black-background {
   background-color: #1e2128ff;
+  width: 10vw;
 }
 
 .landing-page h1 {
