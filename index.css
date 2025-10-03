@@ -17,11 +17,11 @@ body {
 }
 
 .black-background {
-  background-color: rgba(30, 33, 40, 0.621);
+  background-color: rgba(30, 33, 40, 0.8);
   width: 100vw;
   padding: 4em 0.5em;
   margin-bottom: 4em;
-  background-image: url("./images/backround.webp");
+  background-image: url("./backround.webp");
   background-blend-mode: multiply;
 }
 
