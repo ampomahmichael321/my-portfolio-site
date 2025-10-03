@@ -109,8 +109,12 @@ button:hover,
   align-items: center;
   margin-bottom: 2em;
 }
-.about,.services,.projects,.footer{
-  scroll-margin-top: 10em;}
+.about,
+.services,
+.projects,
+.footer {
+  scroll-margin-top: 10em;
+}
 
 .about-left {
   display: flex;
@@ -139,8 +143,8 @@ button:hover,
   animation: slide-in-bottom 1s ease-out both;
   animation-timeline: view();
 }
-.services h1{
-   animation: slide-in-bottom 1s ease-out both;
+.services h1 {
+  animation: slide-in-bottom 1s ease-out both;
   animation-timeline: view();
 }
 
@@ -159,8 +163,8 @@ button:hover,
   /* Rectangle 1 */
 }
 
-.service-top p{
-    color:white;
+.service-top p {
+  color: white;
 }
 
 .skills,
@@ -185,15 +189,16 @@ button:hover,
   padding-bottom: 0.5em;
 }
 
-.first-service,.third-service,.fifth-service {
-   background: #171A1FFF;
+.first-service,
+.third-service,
+.fifth-service {
+  background: #171a1fff;
 }
 
-
 .second-service,
-.fourth-service,.sixth-service {
+.fourth-service,
+.sixth-service {
   background: rgb(70, 143, 245);
- 
 }
 
 .projects {
@@ -224,6 +229,7 @@ button:hover,
   display: flex;
   align-items: flex-start;
   border-radius: 3px;
+  object-fit: cover;
 }
 
 .project-img-side img {
@@ -245,8 +251,8 @@ button:hover,
   bottom: 1em;
   left: 1.5em;
   font-size: 0.8em;
-  color:  rgb(70, 143, 245);
-  cursor:pointer;
+  color: rgb(70, 143, 245);
+  cursor: pointer;
   z-index: 1;
 }
 
@@ -434,12 +440,12 @@ legend {
     color: #e34d73ff;
   }
 
-    #nav-hire-me-btn:hover,
+  #nav-hire-me-btn:hover,
   .hire-me-btn:hover,
   .submit-btn:hover {
     background-color: white;
-    border: solid  rgb(70, 143, 245) 1px;
-    color:  rgb(70, 143, 245);
+    border: solid rgb(70, 143, 245) 1px;
+    color: rgb(70, 143, 245);
   }
 
   .profile-pic {
@@ -480,7 +486,7 @@ legend {
   }
 }
 
-@media(min-width:750px)and (max-width: 899px){
+@media (min-width: 750px) and (max-width: 899px) {
   .services {
     flex-direction: row;
     flex-wrap: wrap;
@@ -492,8 +498,8 @@ legend {
     min-width: 30%;
     max-width: 45%;
   }
-  
-    .projects {
+
+  .projects {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2em;
@@ -507,7 +513,6 @@ legend {
     height: 22em;
     justify-content: flex-start;
   }
-  
 }
 
 @media (max-width: 750px) {
@@ -516,42 +521,14 @@ legend {
     margin-left: 2.5%;
   }
 }
-@media(max-width: 450px){
-  .about{
-    margin-top:-3em;
+@media (max-width: 450px) {
+  .about {
+    margin-top: -3em;
   }
-  .services{
-    margin-top: 1.5em;}
-  .skills{
+  .services {
+    margin-top: 1.5em;
+  }
+  .skills {
     margin-top: 5em;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
