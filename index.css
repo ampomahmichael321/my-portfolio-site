@@ -56,8 +56,6 @@ button,
   border-radius: 3px;
   margin-bottom: 2em;
   cursor: pointer;
-  animation: slide-in-bottom 1s ease-out both;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 button:hover,
@@ -140,12 +138,6 @@ button:hover,
 .service,
 .project {
   font-size: 1.1em;
-  animation: slide-in-bottom 1s ease-out both;
-  animation-timeline: view();
-}
-.services h1 {
-  animation: slide-in-bottom 1s ease-out both;
-  animation-timeline: view();
 }
 
 .service-top,
@@ -292,8 +284,6 @@ button:hover,
   background-color: #1e2128ff;
   padding: 2em;
   width: 100vw;
-  animation: slide-in-bottom ease-out both;
-  animation-timeline: view();
 }
 
 fieldset {
@@ -330,26 +320,6 @@ legend {
   background: rgb(70, 143, 245);
   margin-top: 1em;
   transition: all 0.5s ease-in-out;
-}
-
-.animate-fade-in {
-  animation: fade-in 1s ease-in both;
-  transition: all 0.3s ease-in-out;
-}
-
-.animate-slide-in-left {
-  animation: slide-in-left 1s ease-out both;
-  transition: all 0.3s ease-in-out;
-}
-.animate-slide-in-right {
-  animation: slide-in-right 1s ease-out both;
-  transition: all 0.3s ease-in-out;
-}
-.animate-slide-in-bottom {
-  animation: slide-in-bottom 1s ease-out both;
-  transition: all 0.3s ease-in-out;
-  animation-timeline: view();
-  animation-range: entry 60% cover 100%;
 }
 
 /*Media Queries*/
