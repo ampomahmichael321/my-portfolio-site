@@ -19,7 +19,7 @@ body {
 .black-background {
   background-color: #1e2128ff;
   width: 100vw;
-  padding: 4em 2em;
+  padding: 4em 0.5em;
 }
 
 .landing-page h1 {
