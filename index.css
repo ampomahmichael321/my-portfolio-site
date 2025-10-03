@@ -1,4 +1,10 @@
 /*Fix the centering Issue*/
+
+html,
+body {
+  overflow-x: hidden;
+}
+
 .nav-links {
   display: none;
 }
