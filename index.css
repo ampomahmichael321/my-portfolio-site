@@ -17,12 +17,10 @@ body {
 }
 
 .black-background {
-  background-color: rgba(30, 33, 40, 0.95);
+  background-color: rgba(30, 33, 40, 1);
   width: 100vw;
   padding: 4em 0.5em;
   margin-bottom: 4em;
-  background-image: url("./backround.webp");
-  background-blend-mode: multiply;
 }
 
 .landing-page h1 {
