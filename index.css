@@ -217,6 +217,7 @@ button:hover,
   background-color: #dee1e6ff;
   gap: 1em;
   margin-bottom: 2em;
+  border-radius: 15px;
   position: relative;
 
   /*fix the height*/
@@ -234,6 +235,10 @@ button:hover,
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.project-text-side {
+  padding: 1em;
 }
 
 .project h2 {
@@ -476,7 +481,7 @@ legend {
 
   .project {
     width: 30%;
-    height: 22em;
+    height: 25em;
     justify-content: flex-start;
   }
   .social-links {
