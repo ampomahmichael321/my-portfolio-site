@@ -110,18 +110,13 @@ button:hover,
 }
 
 .social-icon {
-  border: solid black 1px;
   border-radius: 5px;
-  width: 50px;
-  margin-right: 1em;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.footer .social-icon {
   border: solid white 1px;
   width: 40px;
   margin-right: 1em;
   padding: 0.5em;
+  margin-right: 1em;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .about {
@@ -532,3 +527,4 @@ legend {
     margin-top: 5em;
   }
 }
+
