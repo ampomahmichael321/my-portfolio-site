@@ -282,17 +282,17 @@ button:hover,
 
 .browse-projects-btn a {
   padding: 0.5em;
-  border: solid #e34d73ff 0.5px;
+  border: solid #1c1c1c 0.5px;
   border-radius: 3px;
-  color: #e34d73ff;
+  color: #1c1c1c;
+  transition: all 0.3s ease-in-out;
 }
 .browse-projects-btn a:hover {
-  color: #d4214eff;
-  background: #00000000;
+  transform: translateY(-3px);
 }
 /* Pressed */
 .browse-projects-btn a:hover:active {
-  color: #ba1d44ff;
+  color: white;
   background: #00000000;
 }
 
