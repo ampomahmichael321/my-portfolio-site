@@ -212,7 +212,8 @@ button:hover,
   background: rgb(70, 143, 245);
 }
 
-.projects {
+.projects,
+.projects-cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -466,7 +467,7 @@ legend {
   fieldset {
     width: 80%;
   }
-  .projects {
+  .projects-cards {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2em;
@@ -527,4 +528,3 @@ legend {
     margin-top: 5em;
   }
 }
-
