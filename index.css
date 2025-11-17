@@ -291,7 +291,7 @@ button:hover,
 /* Pressed */
 .browse-projects-btn a:hover:active {
   color: white;
-  background: #00000000;
+  background-color: #1c1c1c;
 }
 
 .footer {
