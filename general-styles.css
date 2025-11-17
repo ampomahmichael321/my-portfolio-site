@@ -48,6 +48,8 @@ nav {
   flex-direction: column;
   gap: 2em;
   padding: 2.5em;
+  backdrop-filter: blur(5px) brightness(0.7);
+  z-index: 1;
 }
 .hidden-menu a {
   color: rgba(255, 255, 255, 0.618);
