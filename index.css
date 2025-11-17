@@ -59,7 +59,7 @@ body {
   bottom: 0;
   right: 0;
   left: 2em;
-  background-color: rgba(0, 0, 0, 0.792);
+  background-color: rgba(0, 0, 0, 0.392);
   backdrop-filter: blur(15px) brightness(0.7);
 
   z-index: 1;
