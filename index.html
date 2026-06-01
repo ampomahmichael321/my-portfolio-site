@@ -1,392 +1,288 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="google-site-verification"
-      content="7Caq0G0qOai7zqhEQQziMywveQluvXFUi70WSQOqL2M"
-    />
-    <meta
-      name="title"
-      content="Michael Ampomah — Frontend Developer & Designer"
-    />
-    <meta
-      name="description"
-      content="I am Michael Ampomah, a passionate frontend developer who builds clean, modern and responsive websites. Explore my projects, experience, and skills."
+    <title>Michael Ampomah | Full Stack Developer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
     />
 
-    <meta
-      name="keywords"
-      content="Michael Ampomah, frontend developer, web developer, portfolio, HTML CSS JavaScript developer, Ghana developer, portfolio website, AMP Tech, amp tech"
-    />
-
-    <meta name="robots" content="index, follow" />
-
-    <title>Michael Ampomah</title>
-    <link rel="stylesheet" href="./styles/general-styles.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="./index.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav data-aos="fade-down" data-aos-duration="2000">
-      <img
-        class="nav-logo"
-        src="./images/amp-tech-logo-black-removebg-preview.png"
-      />
-      <div class="menu">
-        <img src="./images/menu.png" />
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#" class="logo">Michael.dev</a>
+
+        <ul class="nav-links big-screen-only">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <p class="hero-subtitle">FULL STACK DEVELOPER</p>
+
+        <h1>Building Modern Web Experiences With Performance & Precision.</h1>
+
+        <p class="hero-description">
+          I design and develop scalable digital products with a strong focus on
+          clean UI, responsive systems, accessibility, and modern web
+          architecture.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="_" class="btn btn-secondary">Download CV</a>
+        </div>
       </div>
-      <div class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About me</a>
-        <a href="#footer">Contact</a>
-        <a href="#footer" id="nav-hire-me-btn">Hire Me</a>
-      </div>
-    </nav>
-    <div class="hidden-menu">
-      <div class="close-btn">
-        <img src="./images/close-btn.png" />
-      </div>
-      <a href="#about" class="link">About me</a>
-      <a href="#services" class="link">Services</a>
-      <a href="#projects" class="link">Projects</a>
-      <a href="#footer" class="link">Contact</a>
-    </div>
-    <main>
-      <div class="black-background">
-        <div
-          class="landing-page"
-          data-aos="fade-right"
-          data-aos-duration="2000"
-        >
-          <div class="landing-page-left">
-            <h1>Hello! I'm Michael</h1>
-            <h2>[Full-Stack Web Developer]</h2>
-            <p class="professional-summary">
-              I help businesses and individuals bring their ideas online by
-              building web solutions that are modern, reliable, and tailored to
-              their needs. From simple websites to full-featured web
-              applications, I focus on creating clean, functional, and
-              user-friendly experiences — always delivered with quality and on
-              time
-            </p>
-            <button class="download-cv-btn">Download CV</button>
-            <a href="#footer" class="hire-me-btn button">Hire Me</a>
-          </div>
-          <div class="landing-page-right">
+    </section>
+
+    <!-- =========================
+         ABOUT SECTION
+    ========================== -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <div class="image-placeholder">
             <img
-              src="./images/developer-removebg-preview.png"
-              alt="profile-pic"
+              src="./images/headshot.jpg"
+              alt="profile picture"
+              id="profile-img"
             />
           </div>
         </div>
-        <section class="about" id="about">
-          <div class="about-left">
-            <h1
-              data-aos="fade-right"
-              data-aos-duration="2000"
-              data-aos-delay="200"
-            >
-              About Me
-            </h1>
-            <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
-              I’m a passionate web developer who loves turning ideas into
-              functional, user-friendly web apps. For me, code is more than just
-              syntax — it’s a tool to solve real problems and create experiences
-              people enjoy. When I’m not debugging or designing interfaces, I’m
-              learning new technologies, sharpening my skills, and pushing
-              myself to build projects that make an impact. My goal is simple:
-              write clean code, build smart solutions, and keep growing every
-              day.
-            </p>
-            <div class="social-links">
-              <a
-                href="https://www.linkedin.com/in/michael-ampomah-a619b82a7"
-                target="_blank"
-              >
-                <img
-                  src="./images/free-linkedin-icon-94-thumb-white.png"
-                  alt="linkedin"
-                  class="social-icon"
-                />
-              </a>
-              <a href="mailto:ampomahmichael321@gmail.com" target="_blank">
-                <img
-                  src="./images/email.webp"
-                  alt="email"
-                  class="social-icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div
-            class="about-right"
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            data-aos-delay="200"
-          >
-            <img
-              src="./images/profile-pic.png"
-              alt="my picture"
-              class="profile-pic"
-            />
-          </div>
-        </section>
-      </div>
-      <section class="services" id="services">
-        <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
-          Services
-        </h1>
-        <div
-          class="service"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-delay="200"
-          data-aos-easing="ease-out-cubic"
-        >
-          <div class="service-top first-service">
-            <p>Responsive Design</p>
-          </div>
-          <div class="service-bottom">
-            <p>
-              Building websites that look and work great on all devices (mobile,
-              tablet, desktop)
-            </p>
-          </div>
-        </div>
-        <div
-          class="service"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-delay="300"
-          data-aos-easing="ease-out-cubic   "
-        >
-          <div class="service-top second-service">
-            <p>Website Redesign & Modernization</p>
-          </div>
-          <div class="service-bottom">
-            <p>
-              Upgrading old/outdated websites with modern layouts and clean
-              code.
-            </p>
-          </div>
-        </div>
-        <div
-          class="service"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-delay="300"
-          data-aos-easing="ease-out-cubic"
-        >
-          <div class="service-top third-service">
-            <p>Search Engine Optimization</p>
-          </div>
-          <div class="service-bottom">
-            <p>
-              I optimize websites to rank higher on search engines by improving
-              site speed, structure, and content visibility, helping businesses
-              reach more customers online.
-            </p>
-          </div>
-        </div>
-        <div
-          class="service"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-delay="400"
-          data-aos-easing="ease-out-cubic   "
-        >
-          <div class="service-top fourth-service">
-            <p>Website Maintenance</p>
-          </div>
-          <div class="service-bottom">
-            <p>Updating content, fixing bugs, and keeping websites fresh.</p>
-          </div>
-        </div>
 
-        <div
-          class="service"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-delay="400"
-          data-aos-easing="ease-out-cubic"
-        >
-          <div class="service-top fifth-service">
-            <p>Perfect Pixel Implementation</p>
-          </div>
-          <div class="service-bottom">
-            <p>
-              Turning Figma/Sketch/Photoshop designs into functional websites.
-            </p>
-          </div>
-        </div>
-      </section>
-      <div
-        class="skills"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-        data-aos-delay="500"
-      >
-        <h1>My Skills</h1>
-        <div class="skills-content">
-          <p>HTML 5</p>
-          <p>CSS</p>
-          <p>JAVASCRIPT</p>
-          <p>REACT JS</p>
-          <p>SQL</p>
-          <p>PYTHON</p>
-          <p>DJANGO</p>
-          <p>MS-OFFICE SUITE</p>
+        <div class="about-content">
+          <h2 class="section-title">About Me</h2>
+
+          <p>
+            I’m a full stack developer focused on building performant, scalable,
+            and visually polished web applications. I enjoy transforming ideas
+            into intuitive digital products with thoughtful user experiences and
+            maintainable codebases.
+          </p>
+
+          <p>
+            My development process combines modern frontend architecture,
+            backend engineering, and strong UI design principles to create
+            applications that are fast, responsive, and production-ready. I’m
+            especially interested in AI-powered systems, automation, and
+            interactive web experiences.
+          </p>
         </div>
       </div>
-      <section class="projects" id="projects">
-        <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300">
-          Projects
-        </h1>
-        <div class="projects-cards">
-          <div
-            class="project"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-            data-aos-delay="300"
-          >
-            <div class="project-img-side">
-              <img src="./images/ehgn-website.png" />
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <h2 class="section-title">My Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML5, CSS3,Vanilla JS, React JS, Responsive Design,</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Python,Django, Postgresql</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Mobile Development</h3>
+          <p>React Native</p>
+        </div>
+        <div class="skill-card">
+          <h3>Game Development</h3>
+          <p>Godot, Pygame</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PROJECTS SECTION
+    ========================== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p>
+            Selected projects showcasing full stack development, UI design, and
+            scalable web architecture.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/friendsoffuo.png" alt="Project Priview" />
             </div>
-            <div class="project-text-side">
-              <h2>EHGN Church Website</h2>
+
+            <div class="project-content">
+              <h3>Friends Of Fuo 2 Inc Website</h3>
+
               <p>
-                A modern, responsive website for the Eleventh Hour Generation
-                Network (EHGN) church, built with HTML, CSS, and JavaScript to
-                showcase their mission, events, and community resources.
+                A healthcare platform designed to help hospitals manage and
+                track patient medical histories through a centralized digital
+                system.
               </p>
-              <a
-                href="https://ampomahmichael321.github.io/ehgn-website/"
-                class="live-project-link"
-                target="_blank"
-                >view live project</a
-              >
+
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>SQL</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://www.friendsoffuo2inc.com" target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image">Project Preview</div>
+
+            <div class="project-content">
+              <h3>Autogroup</h3>
+
+              <p>
+                A smart academic grouping platform that automatically organizes
+                students into balanced collaborative teams based on configurable
+                group sizes.
+              </p>
+
+              <div class="tech-stack">
+                <span>JavaScript</span>
+                <span>CSS Grid</span>
+                <span>Python</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image">Project Preview</div>
+
+            <div class="project-content">
+              <h3>EHGN Church Website</h3>
+
+              <p>
+                A modern lost-and-found platform enabling users to report,
+                search, and recover misplaced items through a streamlined web
+                interface.
+              </p>
+
+              <div class="tech-stack">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Responsive UI</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         EXPERIENCE SECTION
+    ========================== -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Testimonials</h2>
+          <p>
+            Professional journey focused on software engineering, product
+            design, and scalable web systems.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+              <span class="timeline-date">Friends of Fuo Inc</span>
+
+              <h3>Getty Clark</h3>
+              <h4>(Founder)</h4>
+
+              <ul>
+                <li>
+                  Developed responsive web interfaces for modern digital
+                  products.
+                </li>
+              </ul>
             </div>
           </div>
 
-          <div
-            class="project"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-            data-aos-delay="300"
-          >
-            <div class="project-img-side">
-              <img src="./images/autogroup.png" />
-            </div>
-            <div class="project-text-side">
-              <h2>Auto Group</h2>
-              <p>
-                Auto Group is a web application designed to help users easily
-                create random groups from a list of names. Whether you're
-                organizing teams for a project, planning group activities, or
-                just looking to mix things up, Auto Group simplifies the process
-                of group formation.
-              </p>
-              <a
-                href="https://autogroup.vercel.app"
-                class="live-project-link"
-                target="_blank"
-                >view live project</a
-              >
-            </div>
-          </div>
-          <div
-            class="project"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-            data-aos-delay="300"
-          >
-            <div class="project-img-side">
-              <img src="./images/fistbump.png" />
-            </div>
-            <div class="project-text-side">
-              <h2>Fist Bump</h2>
-              <p>
-                A web app that makes connecting on WhatsApp faster by letting
-                users send messages without saving phone numbers
-              </p>
-              <a
-                href="https://fistbumpme.vercel.app"
-                class="live-project-link"
-                target="_blank"
-                >view live project</a
-              >
-            </div>
-          </div>
-        </div>
+          <!-- Timeline Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
 
-        <div class="browse-projects-btn">
-          <a
-            href="./projects.html"
-            class="browse-projects-btn"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-            data-aos-delay="300"
-          >
-            Browse all projects
-          </a>
+            <div class="timeline-content">
+              <span class="timeline-date">EHGN</span>
+
+              <h3>Dr. Christopher Ampomah</h3>
+              <h4>(Founder & Lead Pastor)</h4>
+
+              <ul>
+                <li>
+                  Built scalable backend systems and responsive frontend
+                  layouts.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
-    <div class="footer" id="footer">
-      <div
-        class="footer-left"
-        data-aos="fade-right"
-        data-aos-duration="2000"
-        data-aos-delay="300"
-      >
-        <h1>Say hello and let's work together</h1>
+      </div>
+    </section>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Michael.dev — All Rights Reserved.</p>
+        <p>Tel | +233 537 285 055 | +233 509 327 673</p>
+
+        <p>Email | ampomahmichael321@gmail.com</p>
         <div class="social-links">
-          <a
-            href="https://www.linkedin.com/in/michael-ampomah-a619b82a7"
-            target="_blank"
-          >
-            <img
-              src="./images/free-linkedin-icon-94-thumb-white.png"
-              alt="linkedin"
-              class="social-icon"
-            />
-          </a>
-          <a href="mailto:ampomahmichael321@gmail.com" target="_blank">
-            <img src="./images/email.webp" alt="email" class="social-icon" />
-          </a>
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
         </div>
       </div>
-      <form
-        action="https://formsubmit.co/18c39450605a5ece93b2279ec856d4fd"
-        method="POST"
-        data-aos="fade-left"
-        data-aos-duration="2000"
-        data-aos-delay="300"
-      >
-        <fieldset>
-          <legend>Name</legend>
-          <input type="text" placeholder="John Doe" name="name" required />
-        </fieldset>
-        <fieldset>
-          <legend>Email</legend>
-          <input
-            type="email"
-            placeholder="name@website.com"
-            name="email"
-            required
-          />
-        </fieldset>
-        <fieldset>
-          <legend>Message</legend>
-          <textarea name="message" required></textarea>
-        </fieldset>
-        <button class="submit-btn" type="submit">Submit</button>
-      </form>
-    </div>
+    </footer>
   </body>
 </html>
